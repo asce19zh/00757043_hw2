@@ -6,6 +6,7 @@ struct Team{
     let name:String
     let Region:String
     let createdTime:String
+    let recentMatch:string
 }
 struct Player {
     var id = UUID()
@@ -15,10 +16,10 @@ struct Player {
     let Country:String
 }
 
-let Suning = Team(name:"Suning", Region: "LPL", createdTime: "2016-12-28")
-let TES = Team(name:"Top Esports", Region:"LPL", createdTime: "2019-05-15")
-let G2 = Team(name:"G2 Esports", Region:"LEC", createdTime: "2015-10-15")
-let DWG = Team(name:"DAMWON Gaming", Region:"LCK", createdTime: "2017-05-28")
+let Suning = Team(name:"Suning", Region: "LPL", createdTime: "2016-12-28", recentMatch:"In the second quarterfinals of the 2020 League of Legends World Championship, the LPL third seed, Suning Gaming wiped out the LPL second seed, JD Gaming, in a dominant 3-1 series. While Suning came in as the first seed from their group, JDG's seeding, plus their group opponent - DAMWON Gaming - had many considering JDG as favorites for the match.")
+let TES = Team(name:"Top Esports", Region:"LPL", createdTime: "2019-05-15", recentMatch:"Top Esports completed the first reverse sweep in League of Legends World Championship history today against Fnatic to advance to the tournament’s semifinals, where they will face Suning.The series featured high-level plays from both teams and much resilience from the LPL players who were down two games. Seen as one of the favorites to win this year’s League of Legends World Championship, TES had a shaky start against Fnatic but improved with each match.")
+let G2 = Team(name:"G2 Esports", Region:"LEC", createdTime: "2015-10-15", recentMatch:"After dominating performances over the past several international events, G2 Esports remains consistent, taking down Gen.G in a 3-0 sweep in the 2020 League of Legends World Championship quarterfinals. Beyond just a few troll moments, they outclassed and outplayed their opponents, making it to the semis yet again. With their dominant victory, they finish out this year's quarterfinals and will meet DAMWON Gaming in the semis for their rematch. After their series, G2 spoke with the global press to discuss their performance and upcoming match.")
+let DWG = Team(name:"DAMWON Gaming", Region:"LCK", createdTime: "2017-05-28", recentMatch:"The first quarterfinals series was somewhat of a slaughter, ending in a decently clean 3-0 victory for DAMWON Gaming, mimicking the LCK Summer Finals from just a few weeks ago. DWG picked apart DRX, even when they fell behind a bit here and there in a couple of early games. While each DAMWON member deserves a shoutout, the biggest difference-maker for the team was none other than Nuguri himself.")
 let SN_Players = [
     Player(gameid:"Chashao", name: "Shih Yi-Hao (史益豪)", Role:"Coach", Country:"Taiwan"),
     Player(gameid:"Bin", name: "Chen Ze-Bin (陈泽彬)", Role:"Top Laner", Country:"China"),

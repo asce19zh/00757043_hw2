@@ -11,6 +11,7 @@
 		539B688F253F667D007ECDB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B688E253F667D007ECDB0 /* ContentView.swift */; };
 		539B6891253F667F007ECDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539B6890253F667F007ECDB0 /* Assets.xcassets */; };
 		539B6894253F667F007ECDB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539B6893253F667F007ECDB0 /* Preview Assets.xcassets */; };
+		539B689D253F6A00007ECDB0 /* teamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B689C253F6A00007ECDB0 /* teamData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		539B6890253F667F007ECDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539B6893253F667F007ECDB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		539B6895253F667F007ECDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539B689C253F6A00007ECDB0 /* teamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				539B688C253F667D007ECDB0 /* _0757043_hw2App.swift */,
 				539B688E253F667D007ECDB0 /* ContentView.swift */,
+				539B689C253F6A00007ECDB0 /* teamData.swift */,
 				539B6890253F667F007ECDB0 /* Assets.xcassets */,
 				539B6895253F667F007ECDB0 /* Info.plist */,
 				539B6892253F667F007ECDB0 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539B689D253F6A00007ECDB0 /* teamData.swift in Sources */,
 				539B688F253F667D007ECDB0 /* ContentView.swift in Sources */,
 				539B688D253F667D007ECDB0 /* _0757043_hw2App.swift in Sources */,
 			);

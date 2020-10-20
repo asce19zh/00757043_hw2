@@ -21,12 +21,17 @@ struct TeamsView: View {
     var body:some View{
         Text("semis")
             .padding()
+        let rows = [GridItem()]
+        NavigationView{
+            
+        }
     }
 }
 struct ScheduleView: View {
     var body:some View{
         Text("schedule")
             .padding()
+        Link("LOL Worlds 2020 Official Website >", destination:URL(string:"https://lolesports.com/")!)
     }
 }
 struct PictureWall: View {
@@ -40,3 +45,10 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+/*
+TextEditor(text: $lakers_intro)
+    .frame(maxHeight: 150)
+    .border(Color.black)
+*/
